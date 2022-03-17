@@ -1,0 +1,17 @@
+                                /* CARDS */
+
+
+#FRUITS_CONTAINER_CARDS{
+    
+}
+
+  .card{
+
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5px;
+    padding-right: 5%;
+    display: inline;
+    float: left;
+    width: 15%;
+    }
