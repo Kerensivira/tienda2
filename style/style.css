@@ -1,17 +1,28 @@
                                 /* CARDS */
 
 
-#FRUITS_CONTAINER_CARDS{
-    
-}
-
-  .card{
-
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-bottom: 5px;
-    padding-right: 5%;
-    display: inline;
-    float: left;
-    width: 15%;
-    }
+ #FRUITS_CONTAINER_CARDS{
+margin-left: 5%;
+margin-top: 5%;
+margin-right: 5%;
+                  }
+                              
+.card{
+                              
+padding-top: 5%;
+padding-left: 5%;
+padding-bottom: 5%;
+padding-right: 5%;
+display: inline;
+float: left;
+width: 15%;
+                  }
+                              
+                  /* MODAL */
+                              
+#modalBoton{
+position: relative;
+left: 65%;
+display: inline;
+margin-top: -4%;
+                 }
