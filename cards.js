@@ -6,14 +6,14 @@ async function cargarDataEnConsola(){
     const response = await fetch('http://localhost:3000/frutas');
     const json = await response.text();
     const data = JSON.parse(json);
-    console.log(data);
+    //console.log(data);
     return data
 
 }
 
 cargarDataEnConsola()
 
-console.log(FRUITS_CONTAINER_CARDS)
+//console.log(FRUITS_CONTAINER_CARDS)
 
 
 
