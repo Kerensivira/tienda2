@@ -51,7 +51,9 @@ async function showCards() {
                   <div class="modal-body">
                    
                   <img src="${imagen}" class="card-img-top" alt="...">
-                    
+                  <h5 class="card-title">${product}</h5>
+                  <h6 class="card-title">${precio}</h6>
+                  <p class="card-text">${unidad_kilo}</p>
                    
                   
                   </div>
