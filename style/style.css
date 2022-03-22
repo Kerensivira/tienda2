@@ -26,3 +26,16 @@ left: 65%;
 display: inline;
 margin-top: -4%;
                  }
+
+
+                              /* CARRITO */
+ #img{
+     width: 4%;
+    }
+
+ .carrito_logo{
+position: relative;
+left: 85%;
+margin-top: -4.3%;
+display: inline;
+ }
