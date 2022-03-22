@@ -33,25 +33,32 @@ async function showCards() {
              <h5 class="card-title">${product}</h5>
              <h6 class="card-title">${precio}</h6>
              <p class="card-text">${unidad_kilo}</p>
-             
-             <div class="modal" tabindex="-1">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-              </div>
-            </div>
-          </div>
-                
+             <button type="button" class="btn btn-light"
+           class="btn btn-outline-secondary"   
+           data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Comprar
+            </button>
+            
+            <!-- Modal -->
+               
+            <div class="modal fade" id="modalProduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Detalles del producto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                   
+                  <img src="${imagen}" class="card-img-top" alt="...">
+                    
+                   
+                  
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
                 </div>
               </div>
             </div>
